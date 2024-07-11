@@ -1,0 +1,15 @@
+{
+  "name": "test_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \" npm start\" \" npm run client\"",
+    "server":"nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
